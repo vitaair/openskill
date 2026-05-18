@@ -6,7 +6,7 @@ OpenSkill is a collection of reusable AI agent skills.
 
 | Skill | Description |
 |---|---|
-| [dev-perception-compiler](skills/dev-perception-compiler/SKILL.md) | Compile vague requirements, bug reports, logs, PR feedback, and handoff notes into executable development tasks with clear context, boundaries, validation, and delivery format. |
+| [codex/dev-perception-compiler](skills/codex/dev-perception-compiler/SKILL.md) | A Codex-oriented skill that compiles vague requirements, bug reports, logs, PR feedback, and handoff notes into executable development tasks with clear context, boundaries, validation, and delivery format. |
 
 ## Structure
 
@@ -15,10 +15,11 @@ openskill/
 ├── README.md
 ├── LICENSE
 └── skills/
-    └── dev-perception-compiler/
-        ├── SKILL.md
-        ├── agents/
-        └── references/
+    └── codex/
+        └── dev-perception-compiler/
+            ├── SKILL.md
+            ├── agents/
+            └── references/
 ```
 
 ## License
