@@ -1,0 +1,8 @@
+# json-render
+
+Use this directory when building or analyzing json-render style systems.
+
+Read `SKILL.md`, then `json-render-index.md`.
+
+Focus on catalog guardrails, JSON specs, renderer registries, streaming patches, dynamic state bindings, actions, validation, and multi-platform output.
+

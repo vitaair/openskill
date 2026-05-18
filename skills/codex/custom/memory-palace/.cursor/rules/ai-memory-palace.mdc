@@ -1,0 +1,16 @@
+---
+description: Use the AI Memory Palace method for durable project memory, Agent handoffs, reusable notes, and structured indexes.
+alwaysApply: false
+---
+
+# AI Memory Palace
+
+When a task involves long-term memory, project notes, continuation state, migration, audit, or an Agent-readable index:
+
+1. Read `SKILL.md`.
+2. Read `ai-memory-index.md`.
+3. Use `ai-memory-template.md` for new project memory.
+
+Organize memory into: 入口, 门厅, 地图, 展厅, 工坊, 档案室, 警示墙, 工作台, 出口.
+
+This directory is the source of truth. Downstream projects should reference it with a small local rule instead of copying the full method.

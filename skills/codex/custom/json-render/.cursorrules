@@ -1,0 +1,8 @@
+# json-render
+
+Use this directory as the source of truth for json-render style generative UI.
+
+Read `SKILL.md` first, then `json-render-index.md`.
+
+Define catalog guardrails, implement a registry, keep specs as JSON data, handle state/actions/validation safely, and verify generated specs against realistic prompts.
+

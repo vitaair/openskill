@@ -1,0 +1,16 @@
+---
+description: Use json-render style catalog-constrained generative UI with JSON specs, registries, streaming patches, state, actions, validation, and multi-renderer output.
+alwaysApply: false
+---
+
+# json-render
+
+When the task involves json-render, AI-generated UI, JSON specs, catalog/registry design, streaming UI, dynamic forms, or multi-renderer output:
+
+1. Read `SKILL.md`.
+2. Read `json-render-index.md`.
+3. Define the catalog before the registry.
+4. Keep AI output constrained to known JSON specs.
+5. Use safe actions, state bindings, visibility, validation, and repeat scopes.
+6. Validate specs and test with realistic prompts.
+

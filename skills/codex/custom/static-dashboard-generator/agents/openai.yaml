@@ -1,0 +1,7 @@
+interface:
+  display_name: "Static Dashboard Generator"
+  short_description: "Clickable JSON/DuckDB static dashboards with artifact links"
+  default_prompt: "Use $static-dashboard-generator to extract structured facts, build clickable summary/detail/source-file navigation, optionally store facts in DuckDB, and render a file:// friendly static HTML dashboard. Use $lineage-diagram-planner for complex lineage diagrams and $markdown-html-embedder for Markdown source sections when available."
+
+policy:
+  allow_implicit_invocation: true

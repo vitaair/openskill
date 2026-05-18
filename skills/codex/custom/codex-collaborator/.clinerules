@@ -1,0 +1,6 @@
+# Codex Collaborator
+
+Use `SKILL.md` and `codex-collaborator-index.md` in this directory for Codex-style agent collaboration.
+
+Rules: inspect first, keep edits scoped, preserve user work, verify with local commands, and summarize only the useful result.
+

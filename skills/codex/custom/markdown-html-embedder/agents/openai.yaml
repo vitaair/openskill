@@ -1,0 +1,7 @@
+interface:
+  display_name: "Markdown HTML Embedder"
+  short_description: "Compile local Markdown files into static HTML sections"
+  default_prompt: "Use $markdown-html-embedder to render local .md files into file:// friendly HTML fragments with anchors, TOC, source links, and rewritten local paths. Pair it with $static-dashboard-generator markdown sections when building dashboards."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,20 @@
+This is the packaged Cursor entry for `softcopy-application-materials`.
+
+Read `<SOFTWARE_COPYRIGHT_WORKSPACE>/00_入口与索引/00_新会话入口.md` first.
+
+Skill workspace root:
+`<LOCAL_PATH>`
+
+Project directories under `软著申请材料/PJ*-...` are targets only, not the workspace root.
+
+Current work object:
+`软著申报材料写作 Skill/工具；软著申请材料/00_通用说明/；软著申请材料/tools/`
+
+Shared rules live in `软著申请材料/00_通用说明/`.
+
+Run `00_资料状态识别入口.md` before `00_项目类型识别入口.md`.
+
+Do not duplicate external skills/projects. Do not use MCP for diagram production.
+
+Formal diagrams must call/reference `<LOCAL_SKILL_WORKSPACE>/NextAIDrawIO写作SKILL/SKILL.md` for layout plan, diagram brief, mxCell writing, and validation feedback, then produce `.drawio` source plus PNG/SVG exports.
+Final documents embed generated PNG/SVG screenshots; keep `.drawio/cells.xml` as source.

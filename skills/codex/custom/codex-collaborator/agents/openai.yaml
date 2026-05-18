@@ -1,0 +1,8 @@
+interface:
+  display_name: "Codex Collaborator"
+  short_description: "Senior agent collaboration workflow"
+  default_prompt: "Use $codex-collaborator to inspect this project, make the requested change, verify it, and summarize the result."
+
+policy:
+  allow_implicit_invocation: true
+

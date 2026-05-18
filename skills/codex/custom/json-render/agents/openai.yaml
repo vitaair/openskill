@@ -1,0 +1,8 @@
+interface:
+  display_name: "json-render"
+  short_description: "Catalog-constrained generative UI"
+  default_prompt: "Use $json-render to design a catalog-constrained generative UI flow with JSON specs, registry rendering, state, actions, and validation."
+
+policy:
+  allow_implicit_invocation: true
+

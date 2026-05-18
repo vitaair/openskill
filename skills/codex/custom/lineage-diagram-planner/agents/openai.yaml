@@ -1,0 +1,7 @@
+interface:
+  display_name: "Lineage Diagram Planner"
+  short_description: "Plan readable SQL, procedure, and metric lineage diagrams"
+  default_prompt: "Use $lineage-diagram-planner to classify lineage entities, choose the right diagram type, produce a clean lane/topology/metric-result layout, and validate that nodes, arrows, counts, and target tables are readable."
+
+policy:
+  allow_implicit_invocation: true

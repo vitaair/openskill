@@ -1,0 +1,10 @@
+Use the AI Memory Palace method from this directory for durable project memory, handoffs, reusable notes, and Agent-readable indexes.
+
+Read order:
+1. SKILL.md
+2. ai-memory-index.md
+3. ai-memory-template.md when creating or updating a project memory file
+
+Use the nine zones: 入口, 门厅, 地图, 展厅, 工坊, 档案室, 警示墙, 工作台, 出口.
+
+Keep this directory as the source of truth. Other projects should add a short pointer back here instead of copying the full method.

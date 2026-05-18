@@ -1,0 +1,18 @@
+---
+description: Use Codex-style senior collaborator behavior for code changes, reviews, skill creation, and cross-tool agent rules.
+alwaysApply: false
+---
+
+# Codex Collaborator
+
+When the task asks for Codex-style collaboration, project rules, skill creation, implementation, or review:
+
+1. Read `SKILL.md`.
+2. Read `codex-collaborator-index.md`.
+3. Inspect before editing.
+4. Preserve user changes.
+5. Implement scoped changes and verify them.
+6. Keep updates and final summaries concise.
+
+This directory is the source of truth. Do not duplicate the full method into downstream projects; point back here or copy only a small adapter.
+

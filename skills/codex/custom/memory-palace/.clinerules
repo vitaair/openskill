@@ -1,0 +1,5 @@
+Use the AI Memory Palace method in this directory when creating, reading, auditing, or updating long-term project memory.
+
+Read `SKILL.md` first, then `ai-memory-index.md`, and use `ai-memory-template.md` for new project memory files.
+
+Keep downstream projects lightweight: add only a pointer to this directory instead of copying the full method.

@@ -1,0 +1,14 @@
+---
+description: Write AI diagram prompts, draw.io mxCell fragments, edit operations, and validation feedback using the next-ai-draw-io writing model.
+alwaysApply: false
+---
+
+# Next AI Draw.io Writing
+
+When writing content for AI-generated draw.io diagrams, read:
+
+1. `SKILL.md`
+2. `next-ai-drawio-writing-index.md`
+
+Default output should be diagram-ready: layout plan, prompt, brief, mxCell XML, edit operations, or validation feedback.
+

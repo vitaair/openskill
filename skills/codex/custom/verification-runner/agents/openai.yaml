@@ -1,0 +1,4 @@
+interface:
+  display_name: "verification runner"
+  short_description: "Enterprise app delivery skill."
+  default_prompt: "Use this skill to continue the enterprise app delivery pipeline."

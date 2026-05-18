@@ -1,0 +1,160 @@
+<mxfile host="app.diagrams.net" modified="2026-05-12T00:00:00.000Z" agent="Codex" version="24.7.17">
+  <diagram id="skill-architecture" name="SKILL 架构">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title1" value="记忆宫殿 SKILL 架构" style="text;html=1;fontSize=22;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="380" y="30" width="360" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="user" value="用户 / 项目任务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="150" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="index" value="入口索引&#xa;ai-memory-index.md" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="120" width="170" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="spec" value="主规范&#xa;ai-agent-memory-palace.md" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="105" width="210" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="template" value="模板&#xa;ai-memory-template.md" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="520" y="210" width="210" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="example" value="示例&#xa;ai-memory-example-project.md" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="520" y="290" width="210" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="mempalace" value="MemPalace 参考笔记&#xa;原文/索引分离 + L0-L3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="800" y="105" width="240" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="drawio" value="next-ai-draw-io 参考笔记&#xa;draw.io XML + 图表校验" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="800" y="205" width="240" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="zones" value="九区结构&#xa;入口/门厅/地图/展厅/工坊/档案室/警示墙/工作台/出口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="150" y="430" width="260" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="layers" value="分层唤醒&#xa;L0 身份边界 / L1 当前故事 / L2 按需区域 / L3 深度原文" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="460" y="430" width="270" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="diagram" value="细节图表协议&#xa;Mermaid 快速预览 / draw.io 可编辑交付" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="780" y="430" width="260" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="user" target="index">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=1;exitY=0.4;entryX=0;entryY=0.5;" edge="1" parent="1" source="index" target="spec">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=1;exitY=0.7;entryX=0;entryY=0.5;" edge="1" parent="1" source="index" target="template">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=1;exitY=0.9;entryX=0;entryY=0.5;" edge="1" parent="1" source="index" target="example">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;dashed=1;exitX=1;exitY=0.35;entryX=0;entryY=0.5;" edge="1" parent="1" source="spec" target="mempalace">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;dashed=1;exitX=1;exitY=0.65;entryX=0;entryY=0.5;" edge="1" parent="1" source="spec" target="drawio">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=0.25;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="spec" target="zones">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="spec" target="layers">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=0.75;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="spec" target="diagram">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="memory-flow" name="记忆写入读取流程">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="mf-title" value="记忆写入与读取流程" style="text;html=1;fontSize=22;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="30" width="360" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="mf-a" value="新信息进入&#xa;对话/代码/文档/命令输出" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="50" y="110" width="180" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="mf-b" value="判断长期价值" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="300" y="105" width="140" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="mf-c" value="来源/置信度&#xa;用户明确/文档/代码/推断" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="520" y="110" width="190" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="mf-d" value="选择九区位置" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="790" y="110" width="160" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="mf-e" value="事实 / 判断 / 行动&#xa;+ 标签 + 来源 + 时间" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="790" y="230" width="190" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="mf-f" value="冲突检查" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="230" width="140" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="mf-g" value="写入记忆卡片" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="300" y="240" width="160" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="mf-h" value="出口交接摘要" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="70" y="240" width="160" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="mf-l0" value="读取 L0&#xa;入口/门厅" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="70" y="430" width="150" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="mf-l1" value="读取 L1&#xa;工作台/出口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="300" y="430" width="150" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="mf-l2" value="按需读取 L2&#xa;地图/展厅/工坊/档案室/警示墙" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="530" y="420" width="210" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="mf-l3" value="需要证据时读取 L3&#xa;项目文件/历史归档/参考链接" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="820" y="420" width="210" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="mf-e1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="mf-a" target="mf-b"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="mf-e2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="mf-b" target="mf-c"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="mf-e3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="mf-c" target="mf-d"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="mf-e4" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="mf-d" target="mf-e"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="mf-e5" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="mf-e" target="mf-f"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="mf-e6" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="mf-f" target="mf-g"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="mf-e7" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="mf-g" target="mf-h"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="mf-e8" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="mf-h" target="mf-l0"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="mf-e9" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="mf-l0" target="mf-l1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="mf-e10" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="mf-l1" target="mf-l2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="mf-e11" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="mf-l2" target="mf-l3"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="diagram-generation" name="细节图表生成流程">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="dg-title" value="细节流程图 / 架构图生成流程" style="text;html=1;fontSize=22;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="360" y="30" width="430" height="40" as="geometry"/></mxCell>
+        <mxCell id="dg-a" value="用户要求图表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="60" y="120" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="dg-b" value="需要长期维护或手工编辑？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="280" y="105" width="170" height="90" as="geometry"/></mxCell>
+        <mxCell id="dg-c" value="draw.io XML&#xa;可编辑源" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="540" y="90" width="160" height="65" as="geometry"/></mxCell>
+        <mxCell id="dg-m" value="Mermaid&#xa;轻量文档图" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="540" y="190" width="160" height="65" as="geometry"/></mxCell>
+        <mxCell id="dg-d" value="生成前规划&#xa;目的/布局/分组/连接/校验点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="780" y="85" width="220" height="75" as="geometry"/></mxCell>
+        <mxCell id="dg-e" value="需要专业图标？&#xa;云厂商/K8s/BPMN" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="805" y="220" width="170" height="95" as="geometry"/></mxCell>
+        <mxCell id="dg-f" value="先查 shape library&#xa;不猜图标语法" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="570" y="330" width="180" height="65" as="geometry"/></mxCell>
+        <mxCell id="dg-g" value="生成节点与连接&#xa;ID 稳定 / 箭头绕障" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="810" y="350" width="190" height="70" as="geometry"/></mxCell>
+        <mxCell id="dg-h" value="结构校验&#xa;XML/ID/source-target" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry x="570" y="500" width="180" height="65" as="geometry"/></mxCell>
+        <mxCell id="dg-i" value="视觉校验&#xa;不重叠/文字可读/箭头清晰" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry x="810" y="500" width="210" height="65" as="geometry"/></mxCell>
+        <mxCell id="dg-j" value="交付&#xa;保留 .drawio + 可选 SVG/PNG" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="410" y="620" width="240" height="70" as="geometry"/></mxCell>
+        <mxCell id="dg-e1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="dg-a" target="dg-b"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="dg-e2" value="是" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=1;exitY=0.35;entryX=0;entryY=0.5;" edge="1" parent="1" source="dg-b" target="dg-c"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="dg-e3" value="否" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=1;exitY=0.75;entryX=0;entryY=0.5;" edge="1" parent="1" source="dg-b" target="dg-m"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="dg-e4" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="dg-c" target="dg-d"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="dg-e5" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="dg-d" target="dg-e"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="dg-e6" value="是" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="dg-e" target="dg-f"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="dg-e7" value="否" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="dg-e" target="dg-g"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="dg-e8" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="dg-f" target="dg-g"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="dg-e9" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=0.5;exitY=1;entryX=1;entryY=0.5;" edge="1" parent="1" source="dg-g" target="dg-h"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="dg-e10" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="dg-h" target="dg-i"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="dg-e11" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="dg-i" target="dg-j"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="dg-e12" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=classic;exitX=0.5;exitY=1;entryX=0.25;entryY=0;" edge="1" parent="1" source="dg-m" target="dg-j"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,6 @@
+# json-render
+
+Use `SKILL.md` and `json-render-index.md` in this directory for json-render generative UI work.
+
+Core rule: AI generates constrained JSON specs; the app renders them through a catalog-backed registry with safe state, actions, validation, and streaming support.
+

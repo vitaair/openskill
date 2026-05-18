@@ -1,0 +1,11 @@
+---
+description: DrawIO architecture diagram generation and export consistency
+globs:
+  - "**/*.drawio"
+  - "**/*.svg"
+  - "**/*.png"
+alwaysApply: false
+---
+
+Use `DrawIO架构图生成SKILL/SKILL.md` for architecture diagram work. Generate `.drawio` first, then export SVG/PNG from draw.io.
+
